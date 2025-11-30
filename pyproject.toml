@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "do-llms-know-what-theyre-capable-of"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.0.0",
+    "inspect-ai>=0.3.129",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.2",
+    "openai>=1.105.0",
+    "scipy>=1.16.3",
+    "swebench>=4.0.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
