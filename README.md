@@ -1,4 +1,5 @@
-# Evaluating LLMs' ability to predict their success on tasks
+# Do LLMs Know What They're Capable Of?
+## Evaluating LLMs' ability to predict their success on tasks
 
 This repository contains code to reproduce experiments from the paper "Do LLMs Know What They Are Capable Of?"
 

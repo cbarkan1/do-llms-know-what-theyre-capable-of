@@ -10,8 +10,8 @@ wheels/
 *gpt-41-mini*
 *.eval
 !src/do_llms_know_what_theyre_capable_of/experiment2/bcb_benchmark_logs/gpt-41-bcb_benchmark.eval
-!**experiment1/example_results/**/*.eval
-!**experiment2/example_results/**/*.eval
+!**/experiment1/example_results/**/*.eval
+!**/experiment2/example_results/**/*.eval
 
 # Virtual environments
 .venv
